@@ -4,7 +4,11 @@
   },
   "rules": {
     "terminology" : {
-      "severity": "warning"
+      "severity": "warning",
+      "defaultTerms": true,
+      "exclude": [
+        "life[- ]cycle"
+      ]
     }
   }
 }
