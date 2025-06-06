@@ -1,12 +1,12 @@
 import os
 
 import matplotlib
-import pandas as pd
-
-matplotlib.use("Agg")
 import matplotlib.dates as mdates
 import matplotlib.pyplot as plt
+import pandas as pd
 from matplotlib.ticker import MaxNLocator
+
+matplotlib.use("Agg")
 
 # Use XKCD style for a hand-drawn effect
 plt.xkcd()
