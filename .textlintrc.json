@@ -4,7 +4,8 @@
   },
   "rules": {
     "terminology" : {
-      "defaultTerms": true
+      "defaultTerms": true,
+      "skip": ["npm", "lifecycle"]
     }
   }
 }
