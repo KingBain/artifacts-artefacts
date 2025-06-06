@@ -1,4 +1,4 @@
-MIT License
+# MIT License
 
 Copyright (c) His Majesty the King in Right of Canada, as represented by the
 Minister responsible for Shared Services Canada, 2024

@@ -6,7 +6,8 @@ Chainguard offers a broad catalogue of minimal, hardened container base images w
 
 By selecting Chainguard images as your base images, you can significantly cut down on the number of CVEs in your container. This is because commonplace risk-prone components are either eliminated or replaced with safer alternatives. This aligns with the GoC’s cyber security strategy to reduce vulnerabilities in our software supply chain.
 
-Artifactory has been set up as a pull through from Chainguard's registry to our JFrog Artifactory instance and available to anyone from within the GC. In other words, Artifactory acts as a mirror for Chainguard images, enabling you to retrieve base images from a local trusted source instead of through the public internet. This not only enhances build speeds, but also sidesteps any potential rate limiting and/or network-related issues when pulling images.
+Artifactory has been set up as a pull through from Chainguard's registry to our JFrog Artifactory instance and available to anyone from within the GC. In other words, Artifactory acts as a mirror for Chainguard images, enabling you to retrieve base images from a local trusted source instead of through the public internet.
+This not only enhances build speeds, but also sidesteps any potential rate limiting and/or network-related issues when pulling images.
 
 The container images which are available:
 
