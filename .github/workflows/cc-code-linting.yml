@@ -28,9 +28,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # To report GitHub Actions status checks
           SUPPRESS_POSSUM: true
           IGNORE_GITIGNORED_FILES: true
-          NATURAL_LANGUAGE_CONFIG_FILE: '.textlintrc.json'
-          PYTHON_BLACK_CONFIG_FILE: 'pyproject.toml'
-          PYTHON_ISORT_CONFIG_FILE: 'pyproject.toml'
-          PYTHON_RUFF_CONFIG_FILE: 'pyproject.toml'
-          PYTHON_PYINK_CONFIG_FILE: 'pyproject.toml'
+          LINTER_RULES_PATH: /
+          NATURAL_LANGUAGE_CONFIG_FILE: './.textlintrc.json'
+          PYTHON_BLACK_CONFIG_FILE: './pyproject.toml'
+          PYTHON_ISORT_CONFIG_FILE: './pyproject.toml'
+          PYTHON_RUFF_CONFIG_FILE: './pyproject.toml'
+          PYTHON_PYINK_CONFIG_FILE: './pyproject.toml'
           VALIDATE_PYTHON_PYINK: false
