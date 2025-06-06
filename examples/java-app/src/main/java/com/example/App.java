@@ -2,12 +2,16 @@ package com.example;
 
 import com.sun.net.httpserver.HttpServer;
 import com.sun.net.httpserver.HttpExchange;
-import java.io.*;
+import java.io.IOException;
+import java.io.OutputStream;
 import java.net.InetSocketAddress;
 import java.time.Instant;
 import java.util.concurrent.Executors;
 
 public class App {
+    private App() {
+        throw new AssertionError("Utility class - do not instantiate");
+    }
     private static final int PORT = 8080;
 
     public static void main(String[] args) throws IOException {
