@@ -8,7 +8,8 @@ Shared Services Canada (SSC) has initiated a one-year pilot project of [GC Secur
 
 - https://artifacts-artefacts.devops.cloud-nuage.canada.ca
 
-Available to all federal departments and agencies, this service represents SSC's initial venture into a unified DevSecOps service, designed to bolster software supply chain security and expedite delivery across the Government of Canada. Outcomes of this pioneering initiative will contribute to the decision-making process regarding the project's long-term sustainability and potential expansion.
+Available to all federal departments and agencies, this service represents SSC's initial venture into a unified DevSecOps service, designed to bolster software supply chain security and expedite delivery across the Government of Canada.
+Outcomes of this pioneering initiative will contribute to the decision-making process regarding the project's long-term sustainability and potential expansion.
 
 For access to GC Secure Artifacts, please completing the following GC Form:
 
@@ -16,7 +17,8 @@ For access to GC Secure Artifacts, please completing the following GC Form:
 
 ## Background
 
-This service supports the Government of Canada's efforts to reduce duplication. While departments currently maintain independent Artifactory instances, a centralized approach provides potential access to advanced features. These features, such as JFrog Advanced Security and/or Runtime, could be cost-prohibitive for individual departments but become feasible through pooled resources. By offering a unified secure service, we can improve cybersecurity and delivery speed while creating potential for significant savings.
+This service supports the Government of Canada's efforts to reduce duplication. While departments currently maintain independent Artifactory instances, a centralized approach provides potential access to advanced features. These features, such as JFrog Advanced Security and/or Runtime, could be cost-prohibitive for individual departments but become feasible through pooled resources.
+By offering a unified secure service, we can improve cybersecurity and delivery speed while creating potential for significant savings.
 
 GC Secure Artifacts, by consolidating efforts across departments, aims to:
 
