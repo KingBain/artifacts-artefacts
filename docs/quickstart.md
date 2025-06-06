@@ -218,7 +218,7 @@ git push origin main
 
 **JFrog CLI Output:**
 
-```
+```text
 Scanning dependencies for security issues...
 No issues found
 Developer tip: Run 'jf audit --fix' locally to auto-fix vulnerabilities
@@ -226,7 +226,7 @@ Developer tip: Run 'jf audit --fix' locally to auto-fix vulnerabilities
 
 **Container Scan Results:**
 
-```
+```text
 Scanning chainguard image...
 No vulnerable components were found
 Scan completed successfully
@@ -234,7 +234,7 @@ Scan completed successfully
 
 **Cost Management:**
 
-```
+```text
 Running automated cleanup to save storage costs...
 Found 0 old images that could be cleaned up
 Cleanup saves storage costs and improves performance
@@ -242,7 +242,7 @@ Cleanup saves storage costs and improves performance
 
 **Build Summary:**
 
-```
+```text
 Build 42 completed
 
 Both images built, pushed, and scanned successfully

@@ -6,7 +6,7 @@
 
 Shared Services Canada (SSC) has initiated a one-year pilot project of [GC Secure Artifacts](https://artifacts-artefacts.devops.cloud-nuage.canada.ca), a secure, scalable, centralized artifact management service underpinned by the JFrog Enterprise+ platform, self-hosted on the GC Private Cloud.
 
-- https://artifacts-artefacts.devops.cloud-nuage.canada.ca
+- [https://artifacts-artefacts.devops.cloud-nuage.canada.ca](https://artifacts-artefacts.devops.cloud-nuage.canada.ca)
 
 Available to all federal departments and agencies, this service represents SSC's initial venture into a unified DevSecOps service, designed to bolster software supply chain security and expedite delivery across the Government of Canada.
 Outcomes of this pioneering initiative will contribute to the decision-making process regarding the project's long-term sustainability and potential expansion.
@@ -110,7 +110,7 @@ FROM artifacts-artefacts.devops.cloud-nuage.canada.ca/docker-chainguard-remote/s
 
 The repository contains complete implementation examples:
 
-```
+```text
 examples/
 ├── java-app/          # Java application with JFrog + Chainguard integration
 ├── python-app/        # Python application example
