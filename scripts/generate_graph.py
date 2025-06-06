@@ -3,6 +3,7 @@ generate_graph.py
 
 Reads data from stats/usage.csv and outputs an XKCD style graph at stats/usage.png.
 """
+
 import os
 
 import matplotlib

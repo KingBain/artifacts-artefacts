@@ -1,4 +1,4 @@
-([Français](#code-de-conduite))
+([Français](#code-de-conduite))<!-- markdownlint-disable-line MD041 -->
 
 ## Code of Conduct
 
