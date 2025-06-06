@@ -1,3 +1,4 @@
+# checkov:skip=CKV_DOCKER_2: no healthcheck, external healthcheck will be used
 FROM artifacts-artefacts.devops.cloud-nuage.canada.ca/docker/library/eclipse-temurin:21-jdk AS builder
 WORKDIR /app
 COPY src/main/java/com/example/*.java ./
