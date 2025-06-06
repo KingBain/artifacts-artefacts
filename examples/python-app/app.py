@@ -3,7 +3,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 
 
 class SimpleHandler(BaseHTTPRequestHandler):
-    def do_GET(self):
+    def do_get(self):
         self.send_response(200)
         self.send_header("Content-Type", "application/json")
         self.end_headers()
