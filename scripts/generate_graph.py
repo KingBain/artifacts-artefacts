@@ -11,6 +11,8 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from matplotlib.ticker import MaxNLocator
 
+OUTPUT_PATH = "stats/usage.png"
+
 matplotlib.use("Agg")
 
 # Use XKCD style for a hand-drawn effect
@@ -53,6 +55,5 @@ ax.set_title(title)
 
 plt.tight_layout()
 
-output_path = "stats/usage.png"
-plt.savefig(output_path)
-print(f"Saved graph to {output_path}")
+plt.savefig(OUTPUT_PATH)
+print(f"Saved graph to {OUTPUT_PATH}")
