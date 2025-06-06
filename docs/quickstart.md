@@ -309,4 +309,4 @@ _Note: Matrix strategy is demonstrated in this repository but optional for your 
 - **Documentation**: Review the complete workflows in `.github/workflows/`
 - **Local Testing**: Use JFrog CLI commands locally first
 - **Issues**: Check GitHub Actions logs for errors
-- **Help**: Contact [devops.artifacts-artefacts.devops@ssc-spc.gc.ca](devops.artifacts-artefacts.devops@ssc-spc.gc.ca)
+- **Help**: Contact [devops.artifacts-artefacts.devops@ssc-spc.gc.ca](mailto:devops.artifacts-artefacts.devops@ssc-spc.gc.ca)
