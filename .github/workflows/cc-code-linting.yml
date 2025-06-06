@@ -26,7 +26,6 @@ jobs:
         uses: super-linter/super-linter/slim@v7.4.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # To report GitHub Actions status checks
-          VALIDATE_ALL_CODEBASE: true # Lint only changed files
           SUPPRESS_POSSUM: true
           IGNORE_GITIGNORED_FILES: true
           NATURAL_LANGUAGE_CONFIG_FILE: '.textlintrc.json'
