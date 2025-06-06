@@ -23,7 +23,7 @@ GC Secure Artifacts, by consolidating efforts across departments, aims to:
 - **Reduce duplication**: Eliminate the need for each department to purchase and manage its own tools.
 - **Strengthen national security**: Through standardizing controls and policies involving software supply chains.
 - **Accelerate development**: Enables developer teams to reuse trusted components without waiting for manual security approvals.
-- **Support compliance**: Maintains traceability throughout the Software Development Life Cycle (SDLC) to meet audit and policy demands. <!-- textlint-disable-line terminology -->
+- **Support compliance**: Maintains traceability throughout the <!-- textlint-disable -->Software Development Life Cycle (SDLC) to meet audit and policy demands.<!-- textlint-enable -->
 
 For further insight into the GC Secure Artifacts initiative, below is an presentation (unclassified) previously presented at the Architectural Review Committee at SSC.
 
@@ -46,7 +46,7 @@ The platform provides:
 - A centralized registry for internal builds and deployments
 - Advanced access controls and repository segmentation
 - Built-in vulnerability scanning (via JFrog Xray)
-- Support for multiple package types (Docker, Maven, NPM, Nuget, Helm, etc.)<!-- textlint-disable-line terminology -->
+- Support for multiple package types <!-- textlint-disable -->(Docker, Maven, NPM, Nuget, Helm, etc.)<!-- textlint-enable -->
 
 ### Chainguard Secure Images
 
