@@ -4,10 +4,10 @@
   },
   "rules": {
     "terminology" : {
-      "severity": "warning",
       "defaultTerms": true,
       "exclude": [
-        "life[- ]cycle"
+        "life[- ]cycle",
+        "(?<=(?:\\w+[^.?!])? )npm\\b"
       ]
     }
   }
