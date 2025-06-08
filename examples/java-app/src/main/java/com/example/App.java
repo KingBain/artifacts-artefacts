@@ -12,6 +12,7 @@ public class App {
     private App() {
         throw new AssertionError("Utility class - do not instantiate");
     }
+
     private static final int PORT = 8080;
 
     public static void main(String[] args) throws IOException {
@@ -19,26 +20,26 @@ public class App {
 
         server.createContext("/", exchange -> {
             String response = """
-                {
-                  "status": "healthy",
-                  "service": "java-demo-api",
-                  "timestamp": "%s",
-                  "version": "1.0.0"
-                }
-                """.formatted(Instant.now().toString());
+                    {
+                      "status": "healthy",
+                      "service": "java-demo-api",
+                      "timestamp": "%s",
+                      "version": "1.0.0"
+                    }
+                    """.formatted(Instant.now().toString());
 
             sendResponse(exchange, response, 200);
         });
 
         server.createContext("/api/info", exchange -> {
             String response = """
-                {
-                  "service": "Java Demo",
-                  "javaVersion": "%s",
-                  "user": "%s",
-                  "workdir": "%s"
-                }
-                """.formatted(
+                    {
+                      "service": "Java Demo",
+                      "javaVersion": "%s",
+                      "user": "%s",
+                      "workdir": "%s"
+                    }
+                    """.formatted(
                     escapeJson(System.getProperty("java.version")),
                     escapeJson(System.getProperty("user.name")),
                     escapeJson(System.getProperty("user.dir")));
@@ -51,12 +52,12 @@ public class App {
                 if ("POST".equals(exchange.getRequestMethod())) {
                     String body = new String(exchange.getRequestBody().readAllBytes());
                     String response = """
-                        {
-                          "received": "%s",
-                          "timestamp": "%s",
-                          "length": %d
-                        }
-                        """.formatted(escapeJson(body), Instant.now().toString(), body.length());
+                            {
+                              "received": "%s",
+                              "timestamp": "%s",
+                              "length": %d
+                            }
+                            """.formatted(escapeJson(body), Instant.now().toString(), body.length());
 
                     sendResponse(exchange, response, 200);
                 } else {
@@ -87,12 +88,13 @@ public class App {
     }
 
     private static String escapeJson(String input) {
-        if (input == null) return "";
+        if (input == null)
+            return "";
         return input
-            .replace("\\", "\\\\")
-            .replace("\"", "\\\"")
-            .replace("\n", "\\n")
-            .replace("\r", "\\r")
-            .replace("\t", "\\t");
+                .replace("\\", "\\\\")
+                .replace("\"", "\\\"")
+                .replace("\n", "\\n")
+                .replace("\r", "\\r")
+                .replace("\t", "\\t");
     }
 }
