@@ -10,7 +10,7 @@ Shared Services Canada (SSC) has initiated a one-year pilot project of [GC Secur
 
 Available to all federal departments and agencies, this service represents SSC's initial venture into a unified DevSecOps service, designed to bolster software supply chain security and expedite delivery across the Government of Canada. Outcomes of this pioneering initiative will contribute to the decision-making process regarding the project's long-term sustainability and potential expansion.
 
-For access to GC Secure Artifacts, please completing the following GC Form:
+For access to GC Secure Artifacts, please complete the following GC Form:
 
 - [GC Secure Artifacts Onboarding Form](https://forms-formulaires.alpha.canada.ca/en/id/cmavw8p4l006eyi01cx1qtxxd)
 
@@ -31,7 +31,7 @@ For further insight into the GC Secure Artifacts initiative, below is an present
 
 
 ## Github Public Adoption
-<img src="stats/usage.png" alt="Usage Over Time" style="width: 100%;" />
+<img src="https://github.com/gccloudone/artifacts-artefacts/blob/stats/stats/usage.png?raw=true" alt="Usage Over Time" style="width: 100%;" />
 
 As the days go by, you can see how the count evolves… here is our github public adoption(Search Results).
 
@@ -147,7 +147,8 @@ For more detailed information on our project standards and guidelines, kindly re
 
 - [Artifactory Standards](./docs/artifactory-standards.md)
 - [Chainguard Images](./docs/chainguard-images.md)
-- [Quick Start Guide](./QUICKSTART.md)
+- [Quick Start Guide](./docs/quickstart.md)
+- [Frequently Asked Questinos](./docs/frequently-asked-questions.md)
 - Additional documents will be uploaded soon
 
 ## Feedback and Contributions
